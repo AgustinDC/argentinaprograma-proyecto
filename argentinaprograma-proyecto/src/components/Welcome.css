@@ -1,3 +1,6 @@
+#contenedor {
+  display: flex;
+}
 
 #id_welcome {
   background-color: rgb(163, 161, 161);
@@ -12,6 +15,6 @@
 }
 
 #id_welcome:hover {
-  zoom: 1.03;
-  cursor: pointer;
+  transform: translateY(-3px);
+  box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.6);
 }
