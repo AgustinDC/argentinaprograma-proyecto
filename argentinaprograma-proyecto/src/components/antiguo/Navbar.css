@@ -1,0 +1,21 @@
+#contenedor {
+    display: flex;
+  }
+  
+  #id_welcome {
+    background-color: rgb(163, 161, 161);
+    display: block;
+    width: fit-content;
+    border: solid 1px black;
+    border-radius: 2%;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bolder;
+  }
+  
+  #id_welcome:hover {
+    transform: translateY(-3px);
+    box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.6);
+  }
+  
